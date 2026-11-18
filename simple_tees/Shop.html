@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="CSS/index3.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;700&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Georgia:ital,wght@0,400;1,400&display=swap" />
+  	
+  	 <style> 	
+.button-link {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #222222;
+      color: black;
+      text-decoration: none;
+      border-radius: 5px; } 	
+	  </style>
+  	
+</head>
+<body>
+  	
+  	<div class="product-page">
+    		<div class="header">
+    		</div>
+    		<b class="simple-tees">SIMPLE TEES</b>
+<a href="SimpleTees.html" class="button-link">
+  <b class="home">HOME</b>
+  </a>
+    		<b class="shop">SHOP</b>
+    		<div class="about">ABOUT</div>
+<a href="Contact.html" class="button-link">
+  <b class="contacts">CONTACTS</b>
+  </a>
+    		<div class="divider">
+    		</div>
+    		<div class="home2">SHOP  /  DON’T BE LATE TEE  /</div>
+			<a href="Shop2.html" class="button-link">
+  <b class="home21">EVERYDAY COMFORT  /</b>
+  </a>
+  <a href="Shop3.html" class="button-link">
+  <b class="home22"> DO GOOD WORK</b>
+  </a>
+    		<div class="product-image-background">
+						<img src= "Don't be late Tee.jpg" width="610" height="650">
+    		</div>
+    		<div class="product-page-child" id="frame">
+    		</div>
+    		<b class="new-arrival">NEW ARRIVAL  •  ORIGINAL GRAPHIC</b>
+    		<b class="dont-be-late">Don't Be Late Tee</b>
+    		<b class="b">₱ 499.00</b>
+    		<div class="divider2">
+    		</div>
+    		<div class="keep-the-momentum">Keep the momentum going. A bold, everyday tee for those<br>who show up and make every moment count.</div>
+    		<b class="select-size">SELECT SIZE</b>
+    		<div class="s">
+      			<div class="s2">
+      			</div>
+      			<b class="s3">S</b>
+    		</div>
+    		<div class="m">
+      			<div class="s2">
+      			</div>
+      			<b class="s3">M</b>
+    		</div>
+    		<div class="l">
+      			<div class="l2">
+      			</div>
+      			<b class="s3">L</b>
+    		</div>
+    		<div class="xl">
+      			<div class="s2">
+      			</div>
+      			<b class="s3">XL</b>
+    		</div>
+    		<div class="xl4">
+      			<div class="s2">
+      			</div>
+      			<b class="s3">2XL</b>
+    		</div>
+    		
+			<b class="quantity">Quantity     −      1      +</b>
+    		<div class="add-to-cart">
+      			<div class="add-to-cart2">
+      			</div>
+      			<b class="add-to-cart3">ADD TO CART  →</b>
+    		</div>
+    		<div class="order-now">
+      			<div class="order-now2">
+      			</div>
+      			<b class="order-now3">ORDER NOW</b>
+    		</div>
+    		<div class="comfortable-everyday-fit">✓  Comfortable everyday fit     ✓  Original print</div>
+    		<div class="footer">
+    		</div>
+    		<b class="simple-tees2">SIMPLE TEES</b>
+    		<a href="PrivacyPolicy.html" class="button-link">
+  <b class="home3">Privacy Policy</b>
+  </a>
+  	</div>
+  	
+  	<div id="frameContainer" class="popup-overlay" style="display:none">
+
+
+  	
+  	
+  	
+  	<script>
+    		var frame = document.getElementById("frame");
+    		if(frame) {
+      			frame.addEventListener("click", function () {
+        				var popup = document.getElementById("frameContainer");
+        				if(!popup) return;
+        				var popupStyle = popup.style;
+        				if(popupStyle) {
+          					popupStyle.display = "flex";
+          					popupStyle.zIndex = 100;
+          					popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+          					popupStyle.alignItems = "center";
+          					popupStyle.justifyContent = "center";
+        				}
+        				popup.setAttribute("closable", "");
+        				
+        				var onClick = popup.onClick || function(e) {
+          					if(e.target === popup && popup.hasAttribute("closable")) {
+            						popupStyle.display = "none";
+          					}
+        				};
+        				popup.addEventListener("click", onClick);
+      			});
+    		}</script></body>
+</html>
