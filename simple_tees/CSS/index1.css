@@ -1,0 +1,310 @@
+.contact {
+  	width: 100%;
+  	height: 1024px;
+  	position: relative;
+  	background-color: #fafaff;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 15px;
+  	color: #20231c;
+  	font-family: 'Open Sans';
+}
+.header {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background-color: #fafaff;
+  	width: 1440px;
+  	height: 102px;
+}
+.simple-tees {
+  	position: absolute;
+  	top: 29px;
+  	left: 82px;
+  	font-size: 29px;
+  	display: inline-block;
+  	font-family: Merriweather;
+  	color: #3e4e13;
+  	width: 330px;
+  	height: 58px;
+}
+.home {
+  	position: absolute;
+  	top: 41px;
+  	left: 860px;
+  	display: inline-block;
+  	width: 110px;
+  	height: 30px;
+  	cursor: pointer;
+}
+.shop {
+  	position: absolute;
+  	top: 41px;
+  	left: 982px;
+  	display: inline-block;
+  	width: 110px;
+  	height: 30px;
+  	cursor: pointer;
+}
+.about {
+  	position: absolute;
+  	top: 41px;
+  	left: 1104px;
+  	display: inline-block;
+  	width: 110px;
+  	height: 30px;
+}
+.contacts {
+  	position: absolute;
+  	top: 41px;
+  	left: 1226px;
+  	display: inline-block;
+  	color: #3e4e13;
+  	width: 110px;
+  	height: 30px;
+}
+.divider {
+  	position: absolute;
+  	top: 101px;
+  	left: 0px;
+  	background-color: #dbdcce;
+  	width: 1440px;
+  	height: 1px;
+}
+.contact-background {
+  	position: absolute;
+  	top: 102px;
+  	left: 0px;
+  	background-color: #ece9d6;
+  	width: 1440px;
+  	height: 818px;
+}
+.get-in-touch {
+  	position: absolute;
+  	top: 172px;
+  	left: 102px;
+  	font-size: 16px;
+  	display: inline-block;
+  	color: #3e4e13;
+  	width: 540px;
+  	height: 32px;
+}
+.we-would-loveto {
+  	position: absolute;
+  	top: 228px;
+  	left: 100px;
+  	font-size: 48px;
+  	display: inline-block;
+  	font-family: Merriweather;
+  	width: 670px;
+  	height: 96px;
+}
+.have-a-question {
+  	position: absolute;
+  	top: 392px;
+  	left: 101px;
+  	font-size: 19px;
+  	color: #52493e;
+  	display: inline-block;
+  	width: 650px;
+  	height: 38px;
+}
+.hellosimpleteesexample {
+  	position: absolute;
+  	top: 556px;
+  	left: 101px;
+  	font-size: 19px;
+  	display: inline-block;
+  	color: #3e4e13;
+  	white-space: pre-wrap;
+  	width: 580px;
+  	height: 38px;
+}
+.b {
+  	position: absolute;
+  	top: 609px;
+  	left: 101px;
+  	font-size: 19px;
+  	display: inline-block;
+  	color: #3e4e13;
+  	white-space: pre-wrap;
+  	width: 540px;
+  	height: 38px;
+}
+.contact-form-surface {
+  	position: absolute;
+  	top: 161px;
+  	left: 755px;
+  	border-radius: 15px;
+  	background-color: #fafaff;
+  	width: 575px;
+  	height: 672px;
+}
+.send-a-message {
+  	position: absolute;
+  	top: 193px;
+  	left: 798px;
+  	font-size: 28px;
+  	display: inline-block;
+  	font-family: Merriweather;
+  	width: 470px;
+  	height: 56px;
+}
+.first-name {
+  	position: absolute;
+  	top: 264px;
+  	left: 797px;
+  	width: 482px;
+  	height: 94px;
+}
+.field {
+  	position: absolute;
+  	top: 33px;
+  	left: 0px;
+  	border-radius: 7px;
+  	background-color: #fafaff;
+  	border: 1.5px solid #dbdcce;
+  	box-sizing: border-box;
+  	width: 482px;
+  	height: 61px;
+}
+.enter-first-name {
+  	position: absolute;
+  	top: 51px;
+  	left: 18px;
+  	font-size: 14px;
+  	color: #5c6255;
+  	display: inline-block;
+  	width: 430px;
+  	height: 28px;
+}
+.enter-surname {
+  	position: absolute;
+  	top: 376px;
+  	left: 797px;
+  	width: 482px;
+  	height: 95px;
+}
+.surname {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 475px;
+  	height: 30px;
+}
+.field2 {
+  	position: absolute;
+  	top: 34px;
+  	left: 0px;
+  	border-radius: 7px;
+  	background-color: #fafaff;
+  	border: 1.5px solid #dbdcce;
+  	box-sizing: border-box;
+  	width: 482px;
+  	height: 61px;
+}
+.enter-email-address {
+  	position: absolute;
+  	top: 488px;
+  	left: 797px;
+  	width: 482px;
+  	height: 94px;
+  	font-size: 14px;
+  	color: #5c6255;
+}
+.enter-email-address2 {
+  	position: absolute;
+  	top: 51px;
+  	left: 18px;
+  	display: inline-block;
+  	width: 430px;
+  	height: 28px;
+}
+.email-address {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	font-size: 15px;
+  	display: inline-block;
+  	color: #20231c;
+  	width: 475px;
+  	height: 30px;
+}
+.how-can-we-help {
+  	position: absolute;
+  	top: 600px;
+  	left: 797px;
+  	width: 482px;
+  	height: 129px;
+}
+.field4 {
+  	position: absolute;
+  	top: 33px;
+  	left: 0px;
+  	border-radius: 7px;
+  	background-color: #fafaff;
+  	border: 1.5px solid #dbdcce;
+  	box-sizing: border-box;
+  	width: 482px;
+  	height: 96px;
+}
+.send-message {
+  	position: absolute;
+  	top: 758px;
+  	left: 797px;
+  	width: 482px;
+  	height: 52px;
+  	font-size: 14px;
+  	color: #fafaff;
+}
+.send-message2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 7px;
+  	background-color: #3e4e13;
+  	width: 482px;
+  	height: 52px;
+}
+.send-message3 {
+  	position: absolute;
+  	top: 15.5px;
+  	left: 20px;
+  	display: inline-block;
+  	white-space: pre-wrap;
+  	width: 447px;
+  	height: 28px;
+}
+.footer {
+  	position: absolute;
+  	top: 920px;
+  	left: 0px;
+  	background-color: #3e4e13;
+  	width: 1440px;
+  	height: 104px;
+}
+.simple-tees2 {
+  	position: absolute;
+  	top: 949px;
+  	left: 82px;
+  	font-size: 22px;
+  	display: inline-block;
+  	font-family: Merriweather;
+  	color: #fafaff;
+  	width: 295px;
+  	height: 44px;
+}
+.home2 {
+  	position: absolute;
+  	top: 960px;
+  	left: 848px;
+  	font-size: 14px;
+  	color: #fafaff;
+  	white-space: pre-wrap;
+  	display: inline-block;
+  	width: 505px;
+  	height: 28px;
+  	cursor: pointer;
+}
+

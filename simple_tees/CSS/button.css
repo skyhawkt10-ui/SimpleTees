@@ -1,0 +1,33 @@
+.button-link {
+  text-decoration: none;      /* Removes the underline from the link */
+}
+
+.shop {
+  display: inline-block;      /* Turns the <b> text into a clickable box */
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.shop:hover {
+  background-color: black;
+}
+
+.button-link {
+  text-decoration: none;      /* Removes the underline from the link */
+}
+
+.contacts {
+  display: inline-block;      /* Turns the <b> text into a clickable box */
+  padding: 10px 20px;
+  background-color: black;
+  color:white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.contacts:hover {
+  background-color: black;
+}

@@ -1,0 +1,334 @@
+.home {
+  	width: 100%;
+  	height: 1024px;
+  	position: relative;
+  	background-color: #fafaff;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 15px;
+  	color: #20231c;
+  	font-family: 'Open Sans';
+}
+.header {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background-color: #fafaff;
+  	width: 1440px;
+  	height: 102px;
+}
+.simple-tees {
+  	position: absolute;
+  	top: 29px;
+  	left: 82px;
+  	font-size: 29px;
+  	display: inline-block;
+  	font-family: Merriweather;
+  	color: #3e4e13;
+  	width: 330px;
+  	height: 58px;
+}
+.home2 {
+  	position: absolute;
+  	top: 41px;
+  	left: 860px;
+  	display: inline-block;
+  	color: #3e4e13;
+  	width: 110px;
+  	height: 30px;
+}
+.shop {
+  	position: absolute;
+  	top: 41px;
+  	left: 982px;
+  	display: inline-block;
+  	width: 110px;
+  	height: 30px;
+}
+.about {
+  	position: absolute;
+  	top: 41px;
+  	left: 1104px;
+  	display: inline-block;
+  	width: 110px;
+  	height: 30px;
+}
+.contacts {
+  	position: absolute;
+  	top: 41px;
+  	left: 1225px;
+  	display: inline-block;
+  	width: 110px;
+  	height: 30px;
+}
+.divider {
+  	position: absolute;
+  	top: 101px;
+  	left: 0px;
+  	background-color: #dbdcce;
+  	width: 1440px;
+  	height: 1px;
+}
+.canvas {
+  	position: absolute;
+  	top: 97px;
+  	left: 0px;
+  	background-color: #ece9d6;
+  	width: 1440px;
+  	height: 702px;
+}
+.backdrop {
+  	position: absolute;
+  	top: 145px;
+  	left: 823px;
+  	border-radius: 16px;
+  	background-color: #d9d7c8;
+  	width: 500px;
+  	height: 597px;
+}
+.dont-belate {
+  	position: absolute;
+  	top: 396.57px;
+  	left: 989.16px;
+  	font-size: 18.96px;
+  	display: inline-block;
+  	color: #fafaff;
+  	width: 167.5px;
+  	height: 37.9px;
+}
+.everyday-essentials {
+  	position: absolute;
+  	top: 214px;
+  	left: 93px;
+  	font-size: 17px;
+  	display: inline-block;
+  	color: #3e4e13;
+  	width: 560px;
+  	height: 34px;
+}
+.simple-t-shirtsfor-everyday {
+  	position: absolute;
+  	top: 276px;
+  	left: 90px;
+  	font-size: 56px;
+  	display: inline-block;
+  	font-family: Merriweather;
+  	width: 710px;
+  	height: 112px;
+}
+.easy-to-wear {
+  	position: absolute;
+  	top: 473px;
+  	left: 94px;
+  	font-size: 19px;
+  	color: #52493e;
+  	display: inline-block;
+  	width: 640px;
+  	height: 38px;
+}
+.button {
+  	position: absolute;
+  	top: 592px;
+  	left: 94px;
+  	width: 227px;
+  	height: 58px;
+  	font-size: 14px;
+  	color: #fafaff;
+}
+.view-shop {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 7px;
+  	background-color: #3e4e13;
+  	width: 227px;
+  	height: 58px;
+}
+.view-shop2 {
+  	position: absolute;
+  	top: 18.5px;
+  	left: 20px;
+  	display: inline-block;
+  	white-space: pre-wrap;
+  	width: 192px;
+  	height: 28px;
+}
+.everyday-comfort-simple {
+  	position: absolute;
+  	top: 825px;
+  	left: 94px;
+  	font-size: 33px;
+  	display: inline-block;
+  	font-family: Merriweather;
+  	width: 1050px;
+  	height: 66px;
+}
+.explore-our-original {
+  	position: absolute;
+  	top: 879px;
+  	left: 96px;
+  	font-size: 17px;
+  	color: #5c6255;
+  	display: inline-block;
+  	width: 780px;
+  	height: 34px;
+}
+.footer {
+  	position: absolute;
+  	top: 920px;
+  	left: 0px;
+  	background-color: #3e4e13;
+  	width: 1440px;
+  	height: 104px;
+}
+.simple-tees2 {
+  	position: absolute;
+  	top: 949px;
+  	left: 82px;
+  	font-size: 22px;
+  	display: inline-block;
+  	font-family: Merriweather;
+  	color: #fafaff;
+  	width: 295px;
+  	height: 44px;
+}
+.home3 {
+  	position: absolute;
+  	top: 960px;
+  	left: 850px;
+  	font-size: 14px;
+  	color: #fafaff;
+  	white-space: pre-wrap;
+  	display: inline-block;
+  	width: 505px;
+  	height: 28px;
+}
+.tshirt {
+  	position: absolute;
+  	top: 145px;
+  	left: 812px;
+  	width: 522px;
+  	height: 610px;
+  	text-align: center;
+  	font-size: 40px;
+  	color: #f8f5e9;
+  	font-family: Inter;
+}
+.t-shirt-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 20px;
+  	width: 522px;
+  	height: 610px;
+  	object-fit: cover;
+}
+.vector-icon {
+  	position: absolute;
+  	height: 17.25%;
+  	width: 20.15%;
+  	top: 27.05%;
+  	right: 37.05%;
+  	bottom: 55.7%;
+  	left: 42.8%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.vector-icon2 {
+  	position: absolute;
+  	height: 13.66%;
+  	width: 15.96%;
+  	top: 28.84%;
+  	right: 39.15%;
+  	bottom: 57.5%;
+  	left: 44.89%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.vector-icon3 {
+  	position: absolute;
+  	height: 6.66%;
+  	width: 4.06%;
+  	top: 30.69%;
+  	right: 43.07%;
+  	bottom: 62.66%;
+  	left: 52.87%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.vector-icon4 {
+  	position: absolute;
+  	height: 2.34%;
+  	width: 26.44%;
+  	top: 28.51%;
+  	right: 33.91%;
+  	bottom: 69.15%;
+  	left: 39.66%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.dont {
+  	position: absolute;
+  	top: 44.43%;
+  	left: 40.8%;
+}
+.be-late {
+  	position: absolute;
+  	top: 50.49%;
+  	left: 36.21%;
+}
+.vector-icon5 {
+  	position: absolute;
+  	height: 0.33%;
+  	width: 34.48%;
+  	top: 58.36%;
+  	right: 30.46%;
+  	bottom: 41.31%;
+  	left: 35.06%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.show-up-for {
+  	position: absolute;
+  	top: 59.02%;
+  	left: 40.8%;
+  	font-size: 10px;
+  	color: #d7ff58;
+}
+.est-right-now {
+  	position: absolute;
+  	top: 60.98%;
+  	left: 44.83%;
+  	font-size: 10px;
+  	color: #d7ff58;
+}
+.vector-icon6 {
+  	position: absolute;
+  	height: 0.82%;
+  	width: 0.86%;
+  	top: 61.8%;
+  	right: 57.38%;
+  	bottom: 37.38%;
+  	left: 41.76%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.vector-icon7 {
+  	position: absolute;
+  	height: 0.82%;
+  	width: 0.86%;
+  	top: 61.8%;
+  	right: 36.02%;
+  	bottom: 37.38%;
+  	left: 63.12%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+
