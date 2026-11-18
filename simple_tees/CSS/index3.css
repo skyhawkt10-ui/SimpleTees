@@ -1,0 +1,409 @@
+.product-page {
+  	width: 100%;
+  	height: 1057px;
+  	position: relative;
+  	background-color: #fafaff;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 15px;
+  	color: #20231c;
+  	font-family: 'Open Sans';
+}
+.header {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background-color: #fafaff;
+  	width: 1440px;
+  	height: 102px;
+}
+.simple-tees {
+  	position: absolute;
+  	top: 29px;
+  	left: 82px;
+  	font-size: 29px;
+  	display: inline-block;
+  	font-family: Merriweather;
+  	color: #3e4e13;
+  	width: 330px;
+  	height: 58px;
+}
+.home {
+  	position: absolute;
+  	top: 41px;
+  	left: 860px;
+  	display: inline-block;
+  	width: 110px;
+  	height: 30px;
+}
+.shop {
+  	position: absolute;
+  	top: 41px;
+  	left: 982px;
+  	display: inline-block;
+  	color: #3e4e13;
+  	width: 110px;
+  	height: 30px;
+}
+.about {
+  	position: absolute;
+  	top: 41px;
+  	left: 1104px;
+  	display: inline-block;
+  	width: 110px;
+  	height: 30px;
+}
+.contacts {
+  	position: absolute;
+  	top: 41px;
+  	left: 1226px;
+  	display: inline-block;
+  	width: 110px;
+  	height: 30px;
+}
+.divider {
+  	position: absolute;
+  	top: 101px;
+  	left: 0px;
+  	background-color: #dbdcce;
+  	width: 1440px;
+  	height: 1px;
+}
+.home2 {
+  	position: absolute;
+  	top: 145px;
+  	left: 91px;
+  	font-size: 14px;
+  	color: #5c6255;
+  	white-space: pre-wrap;
+  	display: inline-block;
+  	width: 800px;
+  	height: 28px;
+}
+	.home21 {
+  	position: absolute;
+  	top: 145px;
+  	left: 290px;
+  	font-size: 14px;
+  	color: #5c6255;
+  	white-space: pre-wrap;
+  	display: inline-block;
+  	width: 800px;
+  	height: 28px;
+}
+
+.home211 {
+  	position: absolute;
+  	top: 145px;
+  	left: 250px;
+  	font-size: 14px;
+  	color: #5c6255;
+  	white-space: pre-wrap;
+  	display: inline-block;
+  	width: 800px;
+  	height: 28px;
+}
+
+
+
+.home22 {
+  	position: absolute;
+  	top: 145px;
+  	left: 450px;
+  	font-size: 14px;
+  	color: #5c6255;
+  	white-space: pre-wrap;
+  	display: inline-block;
+  	width: 800px;
+  	height: 28px;
+}
+
+.home222 {
+  	position: absolute;
+  	top: 145px;
+  	left: 410px;
+  	font-size: 14px;
+  	color: #5c6255;
+  	white-space: pre-wrap;
+  	display: inline-block;
+  	width: 800px;
+  	height: 28px;
+}
+
+.product-image-background {
+  	position: absolute;
+  	top: 197px;
+  	left: 90px;
+  	border-radius: 12px;
+  	background-color: #ece9d6;
+  	width: 612px;
+  	height: 651px;
+}
+.product-page-child {
+  	position: absolute;
+  	top: 214px;
+  	left: 118px;
+  	width: 556px;
+  	height: 621px;
+  	overflow-x: auto;
+}
+.new-arrival {
+  	position: absolute;
+  	top: 200px;
+  	left: 780px;
+  	font-size: 14px;
+  	display: inline-block;
+  	color: #3e4e13;
+  	white-space: pre-wrap;
+  	width: 570px;
+  	height: 28px;
+}
+.dont-be-late {
+  	position: absolute;
+  	top: 242px;
+  	left: 775px;
+  	font-size: 42px;
+  	display: inline-block;
+  	font-family: Merriweather;
+  	width: 590px;
+  	height: 84px;
+}
+
+.everyday-comfort {
+  	position: absolute;
+  	top: 242px;
+  	left: 775px;
+  	font-size: 42px;
+  	display: inline-block;
+  	font-family: Merriweather;
+  	width: 590px;
+  	height: 84px;
+}
+
+
+.do-good-work {
+  	position: absolute;
+  	top: 242px;
+  	left: 775px;
+  	font-size: 42px;
+  	display: inline-block;
+  	font-family: Merriweather;
+  	width: 590px;
+  	height: 84px;
+}
+
+
+
+.b {
+  	position: absolute;
+  	top: 319px;
+  	left: 775px;
+  	font-size: 32px;
+  	display: inline-block;
+  	color: #3e4e13;
+  	width: 510px;
+  	height: 64px;
+}
+.divider2 {
+  	position: absolute;
+  	top: 382px;
+  	left: 775px;
+  	background-color: #dbdcce;
+  	width: 555px;
+  	height: 1px;
+}
+.keep-the-momentum {
+  	position: absolute;
+  	top: 413px;
+  	left: 775px;
+  	font-size: 17px;
+  	color: #52493e;
+  	display: inline-block;
+  	width: 546px;
+  	height: 34px;
+}
+.select-size {
+  	position: absolute;
+  	top: 514px;
+  	left: 775px;
+  	display: inline-block;
+  	width: 340px;
+  	height: 30px;
+}
+.s {
+  	position: absolute;
+  	top: 550px;
+  	left: 775px;
+  	width: 78px;
+  	height: 55px;
+  	font-size: 16px;
+}
+.s2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 7px;
+  	background-color: #fafaff;
+  	border: 1.5px solid #dbdcce;
+  	box-sizing: border-box;
+  	width: 78px;
+  	height: 55px;
+}
+.s3 {
+  	position: absolute;
+  	top: 16px;
+  	left: 31px;
+  	display: inline-block;
+  	width: 44px;
+  	height: 32px;
+}
+.m {
+  	position: absolute;
+  	top: 550px;
+  	left: 871px;
+  	width: 78px;
+  	height: 55px;
+  	font-size: 16px;
+}
+.l {
+  	position: absolute;
+  	top: 550px;
+  	left: 967px;
+  	width: 78px;
+  	height: 55px;
+  	font-size: 16px;
+  	color: #fafaff;
+}
+.l2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 7px;
+  	background-color: #3e4e13;
+  	border: 1.5px solid #3e4e13;
+  	box-sizing: border-box;
+  	width: 78px;
+  	height: 55px;
+}
+.xl {
+  	position: absolute;
+  	top: 550px;
+  	left: 1063px;
+  	width: 78px;
+  	height: 55px;
+  	font-size: 16px;
+}
+.xl4 {
+  	position: absolute;
+  	top: 550px;
+  	left: 1159px;
+  	width: 78px;
+  	height: 55px;
+  	font-size: 16px;
+}
+.quantity {
+  	position: absolute;
+  	top: 642px;
+  	left: 777px;
+  	font-size: 17px;
+  	display: inline-block;
+  	white-space: pre-wrap;
+  	width: 445px;
+  	height: 34px;
+}
+.add-to-cart {
+  	position: absolute;
+  	top: 704px;
+  	left: 775px;
+  	width: 271px;
+  	height: 59px;
+  	font-size: 14px;
+  	color: #fafaff;
+}
+.add-to-cart2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 7px;
+  	background-color: #3e4e13;
+  	width: 271px;
+  	height: 59px;
+}
+.add-to-cart3 {
+  	position: absolute;
+  	top: 19px;
+  	left: 20px;
+  	display: inline-block;
+  	white-space: pre-wrap;
+  	width: 236px;
+  	height: 28px;
+}
+.order-now {
+  	position: absolute;
+  	top: 704px;
+  	left: 1060px;
+  	width: 271px;
+  	height: 59px;
+  	font-size: 14px;
+  	color: #fafaff;
+}
+.order-now2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 7px;
+  	background-color: #52493e;
+  	width: 271px;
+  	height: 59px;
+}
+.order-now3 {
+  	position: absolute;
+  	top: 19px;
+  	left: 20px;
+  	display: inline-block;
+  	width: 236px;
+  	height: 28px;
+}
+.comfortable-everyday-fit {
+  	position: absolute;
+  	top: 794px;
+  	left: 777px;
+  	color: #5c6255;
+  	white-space: pre-wrap;
+  	display: inline-block;
+  	width: 590px;
+  	height: 30px;
+}
+.footer {
+  	position: absolute;
+  	top: 920px;
+  	left: 0px;
+  	background-color: #3e4e13;
+  	width: 1440px;
+  	height: 104px;
+}
+.simple-tees2 {
+  	position: absolute;
+  	top: 949px;
+  	left: 82px;
+  	font-size: 22px;
+  	display: inline-block;
+  	font-family: Merriweather;
+  	color: #fafaff;
+  	width: 295px;
+  	height: 44px;
+}
+.home3 {
+  	position: absolute;
+  	top: 960px;
+  	left: 850px;
+  	font-size: 14px;
+  	color: #fafaff;
+  	white-space: pre-wrap;
+  	display: inline-block;
+  	width: 505px;
+  	height: 28px;
+}
+
+
+
