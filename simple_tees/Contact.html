@@ -1,69 +1,40 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  	<meta charset="utf-8">
-  	<meta name="viewport" content="initial-scale=1, width=device-width">
-  	
-  	<link rel="stylesheet" href="CSS/global.css" />
-  	<link rel="stylesheet" href="CSS/index1.css" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | Simple Tees</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/site.css">
 </head>
 <body>
-  	
-  	<div class="contact">
-    		<div class="header"></div>
-    		<b class="simple-tees">SIMPLE TEES</b>
-    		<div class="home" id="hOMEText">HOME</div>
-    		<div class="shop" id="sHOPText">SHOP</div>
-    		<div class="about">ABOUT</div>
-    		<b class="contacts">CONTACTS</b>
-    		<div class="divider"></div>
-    		<div class="contact-background"></div>
-    		<b class="get-in-touch">GET IN TOUCH</b>
-    		<b class="we-would-loveto">We would love<br>to hear from you.</b>
-    		<div class="have-a-question">Have a question about sizing, an order, or our shirts?<br>Send us a message and we will get back to you.</div>
-    		<b class="hellosimpleteesexample">✉  hello@simpletees.example</b>
-    		<b class="b">☎  +63 000-000-000</b>
-    		
-    		<div class="contact-form-surface"></div>
-    		<b class="send-a-message">Send a message</b>
-    		
-    		<form id="contact-form">
-      			<div class="first-name">
-        				<label for="first-name" class="surname">First name</label>
-        				<input type="text" id="first-name" class="field" placeholder="Enter first name" required />
-      			</div>
-      			
-      			<div class="enter-surname">
-        				<label for="surname" class="surname">Surname</label>
-        				<input type="text" id="surname" class="field2" placeholder="Enter surname" required />
-      			</div>
-      			
-      			<div class="enter-email-address">
-        				<label for="email" class="email-address">Email address</label>
-        				<input type="email" id="email" class="field" placeholder="Enter email address" required />
-      			</div>
-      			
-      			<div class="how-can-we-help">
-        				<label for="message" class="surname">Message</label>
-        				<textarea id="message" class="field4" placeholder="How can we help?" required></textarea>
-      			</div>
-      			
-      			<button type="submit" class="send-message">
-        				<div class="send-message2"></div>
-        				<b class="send-message3">SEND MESSAGE  →</b>
-      			</button>
-    		</form>
-    		
-    		<div class="footer"></div>
-
-<b class="simple-tees2">SIMPLE TEES</b>
-<a href="PrivacyPolicy.html" class="button-link">
-    <b class="home3">Privacy Policy</b>
-</a>
-  	</div>
-  	
-  	<script src="./contact.js"></script>
+<header class="site-header"><a class="brand" href="index.html">SIMPLE TEES</a><nav class="main-nav" aria-label="Main navigation"><a href="index.html">HOME</a><a href="Shop.html">SHOP</a><a href="index.html#about">ABOUT</a><a href="Contact.html" aria-current="page">CONTACTS</a></nav></header>
+<main class="contact-main">
+  <div class="contact-grid">
+    <section class="contact-copy">
+      <p class="eyebrow">GET IN TOUCH</p>
+      <h1>We would love<br>to hear from you.</h1>
+      <p>Have a question about sizing, an order, or our shirts?<br>Send us a message and we will get back to you.</p>
+      <div class="contact-details">
+        <a href="mailto:orders@examplewebsite142.com">✉  orders@examplewebsite142.com</a>
+        <span>☎  +63 000-000-000</span>
+      </div>
+    </section>
+    <section class="contact-card">
+      <h2>Send a message</h2>
+      <form id="contact-form">
+        <div class="form-field"><label for="first-name">First name</label><input id="first-name" name="firstName" type="text" placeholder="Enter first name" autocomplete="given-name" required></div>
+        <div class="form-field"><label for="surname">Surname</label><input id="surname" name="surname" type="text" placeholder="Enter surname" autocomplete="family-name" required></div>
+        <div class="form-field"><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="Enter email address" autocomplete="email" required></div>
+        <div class="form-field"><label for="message">Message</label><textarea id="message" name="message" placeholder="How can we help?" required></textarea></div>
+        <button class="action-button" type="submit">SEND MESSAGE →</button>
+      </form>
+    </section>
+  </div>
+</main>
+<footer class="site-footer"><a class="footer-brand" href="index.html">SIMPLE TEES</a><nav class="footer-nav" aria-label="Footer navigation"><a href="index.html">Home</a><a href="Shop.html">Shop</a><a href="Contact.html">Contact</a><a href="PrivacyPolicy.html">Privacy Policy</a></nav></footer>
+<script src="JS/Contact.js" defer></script>
 </body>
 </html>

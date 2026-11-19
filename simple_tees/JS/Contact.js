@@ -1,52 +1,31 @@
-// Navigation handlers
-const hOMEText = document.getElementById("hOMEText");
-if (hOMEText) {
-  hOMEText.addEventListener("click", function (e) {
-    // Add your code here
-  });
-}
+(() => {
+  "use strict";
+  const RECIPIENT_EMAIL = "orders@examplewebsite142.com";
+  const form = document.getElementById("contact-form");
+  if (!form) return;
 
-const sHOPText = document.getElementById("sHOPText");
-if (sHOPText) {
-  sHOPText.addEventListener("click", function (e) {
-    // Add your code here
-  });
-}
-
-const home = document.getElementById("home");
-if (home) {
-  home.addEventListener("click", function (e) {
-    // Add your code here
-  });
-}
-
-// Contact form mailto handler
-const TO_ADDRESS = "skyhawkt10@gmail.com";
-const form = document.querySelector("#contact-form");
-
-function buildMailto() {
-  const firstName = document.querySelector("#first-name").value.trim();
-  const surname = document.querySelector("#surname").value.trim();
-  const email = document.querySelector("#email").value.trim();
-  const text = document.querySelector("#message").value.trim();
-
-  const subject = "Website message from " + firstName + " " + surname;
-  const body =
-    "First Name: " + firstName + "\r\n" +
-    "Surname: " + surname + "\r\n" +
-    "Email address: " + email + "\r\n\r\n" +
-    text;
-
-  return (
-    "mailto:" + TO_ADDRESS +
-    "?subject=" + encodeURIComponent(subject) +
-    "&body=" + encodeURIComponent(body)
-  );
-}
-
-if (form) {
-  form.addEventListener("submit", function (event) {
+  form.addEventListener("submit", (event) => {
     event.preventDefault();
-    window.location.href = buildMailto();
+    if (!form.reportValidity()) return;
+
+    const value = (id) => document.getElementById(id).value.trim();
+    const firstName = value("first-name");
+    const surname = value("surname");
+    const senderEmail = value("email");
+    const message = value("message");
+
+    const subject = `Simple Tees website message from ${firstName} ${surname}`;
+    const body = [
+      `First name: ${firstName}`,
+      `Surname: ${surname}`,
+      `Email address: ${senderEmail}`,
+      "",
+      "Message:",
+      message
+    ].join("\r\n");
+
+    const mailto = `mailto:${RECIPIENT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    // Keep the mailto navigation in the form-submit gesture so browsers can hand it to the mail app.
+    window.location.href = mailto;
   });
-}
+})();

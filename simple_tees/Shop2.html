@@ -1,137 +1,57 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  	<meta charset="utf-8">
-  	<meta name="viewport" content="initial-scale=1, width=device-width">
-  	
-  	<link rel="stylesheet"  href="CSS/index3.css" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;700&display=swap" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Georgia:ital,wght@0,400;1,400&display=swap" />
-  	
-  	 <style> 	
-.button-link {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #222222;
-      color: black;
-      text-decoration: none;
-      border-radius: 5px; } 	
-	  </style>
-  	
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Everyday Comfort | Simple Tees</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/site.css">
 </head>
-<body>
-  	
-  	<div class="product-page">
-    		<div class="header">
-    		</div>
-    		<b class="simple-tees">SIMPLE TEES</b>
-<a href="SimpleTees.html" class="button-link">
-  <b class="home">HOME</b>
-  </a>
-    		<b class="shop">SHOP</b>
-    		<div class="about">ABOUT</div>
-<a href="Contact.html" class="button-link">
-  <b class="contacts">CONTACTS</b>
-  </a>
-    		<div class="divider">
-    		</div>
-
-	  <a href="Shop.html" class="button-link">
-  <b class="home2"> DON'T BE LATE TEE  /</b>
-  </a>		
-    		<div class="home211">EVERYDAY COMFORT  /</div>
-
-			  <a href="Shop3.html" class="button-link">
-  <b class="home222"> DO GOOD WORK</b>
-  </a>
-    		<div class="product-image-background">
-						<img src= "Everyday Comfort.jpg" width="610" height="650">
-    		</div>
-    		<div class="product-page-child" id="frame">
-    		</div>
-    		<b class="new-arrival">NEW ARRIVAL  •  ORIGINAL GRAPHIC</b>
-    		<b class="everyday-comfort">Everyday Comfort</b>
-    		<b class="b">₱ 499.00</b>
-    		<div class="divider2">
-    		</div>
-    		<div class="keep-the-momentum">Soft days, slow mornings. A bold, everyday tee made to<br>feel like home.</div>
-    		<b class="select-size">SELECT SIZE</b>
-    		<div class="s">
-      			<div class="s2">
-      			</div>
-      			<b class="s3">S</b>
-    		</div>
-    		<div class="m">
-      			<div class="s2">
-      			</div>
-      			<b class="s3">M</b>
-    		</div>
-    		<div class="l">
-      			<div class="l2">
-      			</div>
-      			<b class="s3">L</b>
-    		</div>
-    		<div class="xl">
-      			<div class="s2">
-      			</div>
-      			<b class="s3">XL</b>
-    		</div>
-    		<div class="xl4">
-      			<div class="s2">
-      			</div>
-      			<b class="s3">2XL</b>
-    		</div>
-    		
-			<b class="quantity">Quantity     −      1      +</b>
-    		<div class="add-to-cart">
-      			<div class="add-to-cart2">
-      			</div>
-      			<b class="add-to-cart3">ADD TO CART  →</b>
-    		</div>
-    		<div class="order-now">
-      			<div class="order-now2">
-      			</div>
-      			<b class="order-now3">ORDER NOW</b>
-    		</div>
-    		<div class="comfortable-everyday-fit">✓  Comfortable everyday fit     ✓  Original print</div>
-    		<div class="footer">
-    		</div>
-    		<b class="simple-tees2">SIMPLE TEES</b>
-    		<a href="PrivacyPolicy.html" class="button-link">
-  <b class="home3">Privacy Policy</b>
-  </a>
-  	</div>
-  	
-  	<div id="frameContainer" class="popup-overlay" style="display:none">
-
-
-  	
-  	
-  	
-  	<script>
-    		var frame = document.getElementById("frame");
-    		if(frame) {
-      			frame.addEventListener("click", function () {
-        				var popup = document.getElementById("frameContainer");
-        				if(!popup) return;
-        				var popupStyle = popup.style;
-        				if(popupStyle) {
-          					popupStyle.display = "flex";
-          					popupStyle.zIndex = 100;
-          					popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
-          					popupStyle.alignItems = "center";
-          					popupStyle.justifyContent = "center";
-        				}
-        				popup.setAttribute("closable", "");
-        				
-        				var onClick = popup.onClick || function(e) {
-          					if(e.target === popup && popup.hasAttribute("closable")) {
-            						popupStyle.display = "none";
-          					}
-        				};
-        				popup.addEventListener("click", onClick);
-      			});
-    		}</script></body>
+<body data-product-name="Everyday Comfort">
+<header class="site-header"><a class="brand" href="index.html">SIMPLE TEES</a><nav class="main-nav" aria-label="Main navigation"><a href="index.html">HOME</a><a href="Shop.html" aria-current="page">SHOP</a><a href="index.html#about">ABOUT</a><a href="Contact.html">CONTACTS</a></nav></header>
+<main class="product-shell">
+  <nav class="product-breadcrumbs" aria-label="Product navigation">
+    <a href="index.html">HOME</a><span aria-hidden="true">/</span>
+    <a href="Shop.html">SHOP</a><span aria-hidden="true">/</span>
+    <a href="Shop.html">DON'T BE LATE TEE</a><span aria-hidden="true">/</span>
+    <a href="Shop3.html">DO GOOD WORK</a><span aria-hidden="true">/</span>
+    <span class="current-product" aria-current="page">EVERYDAY COMFORT</span>
+  </nav>
+  <div class="product-layout">
+    <div class="product-visual"><img src="Everyday%20Comfort.jpg" alt="Everyday Comfort graphic T-shirt"></div>
+    <section class="product-info" aria-labelledby="product-title">
+      <p class="eyebrow">NEW ARRIVAL  •  ORIGINAL GRAPHIC</p>
+      <h1 id="product-title">Everyday Comfort</h1>
+      <p class="price">₱ 499.00</p>
+      <hr class="product-rule">
+      <p class="product-description">Soft days, slow mornings. A bold, everyday tee made to feel like home.</p>
+      <span class="control-label">SELECT SIZE</span>
+      <div class="size-options" role="group" aria-label="Select shirt size">
+        <button type="button" class="size-option" data-size="S" aria-pressed="false">S</button>
+        <button type="button" class="size-option" data-size="M" aria-pressed="false">M</button>
+        <button type="button" class="size-option" data-size="L" aria-pressed="false">L</button>
+        <button type="button" class="size-option" data-size="XL" aria-pressed="false">XL</button>
+        <button type="button" class="size-option" data-size="2XL" aria-pressed="false">2XL</button>
+      </div>
+      <div class="quantity-row">
+        <label for="quantity">Quantity</label>
+        <div class="quantity-control">
+          <button type="button" id="quantity-decrease" aria-label="Decrease quantity">−</button>
+          <input type="number" id="quantity" value="1" min="1" max="99" inputmode="numeric" aria-label="Quantity">
+          <button type="button" id="quantity-increase" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
+      <div class="product-actions">
+        <button type="button" class="action-button" id="add-to-cart-button">ADD TO CART  →</button>
+        <button type="button" class="action-button secondary" id="order-now-button">ORDER NOW</button>
+      </div>
+      <p class="product-points"><span>✓  Comfortable everyday fit</span><span>✓  Original print</span></p>
+    </section>
+  </div>
+</main>
+<footer class="site-footer"><a class="footer-brand" href="index.html">SIMPLE TEES</a><nav class="footer-nav" aria-label="Footer navigation"><a href="index.html">Home</a><a href="Shop.html">Shop</a><a href="Contact.html">Contact</a><a href="PrivacyPolicy.html">Privacy Policy</a></nav></footer>
+<script src="JS/Shop.js" defer></script>
+</body>
 </html>
